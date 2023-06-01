@@ -15,8 +15,6 @@
 
     <!-- Fallback to the original file -->
     <img 
-      max-width="180" 
-      max-height="180"
       src="{{ include.path | relative_url }}"
       {% if include.class %}class="{{ include.class }}"{% endif %}  
       {% if include.width %}width="{{ include.width }}"{% else %}width="auto"{% endif %} 
