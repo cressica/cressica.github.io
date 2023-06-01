@@ -6,8 +6,8 @@
  * Themes
  ******************************************************************************/
 :root {
-  --global-bg-color: #fafefe;
-  --global-code-bg-color: rgba(181, 9, 172, 0.05);
+  --global-bg-color: #eeeeee;
+  --global-code-bg-color: rgba(126, 70, 189, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
   --global-theme-color: #0076df;
@@ -17,7 +17,7 @@
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
   --global-distill-app-color: #828282;
-  --global-divider-color: rgba(0,0,0,.1);
+  --global-divider-color: rgba(0,0,0,.5);
   --global-card-bg-color: #ffffff;
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -365,9 +365,11 @@ blockquote {
 
 .social {
   text-align: center;
+  letter-spacing: 1rem;
+  padding-bottom: 2rem;
 }
 .social .contact-icons {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .social .contact-icons a i::before {
   color: var(--global-text-color);
@@ -433,7 +435,7 @@ footer.sticky-bottom {
 }
 .header-bar h1 {
   color: var(--global-theme-color);
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 .tag-list {
@@ -537,7 +539,7 @@ footer.sticky-bottom {
   padding-top: 0.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  text-align: right;
+  text-align: left;
 }
 
 .publications {
