@@ -103,6 +103,10 @@ blockquote {
       align-items: center;
     }
   }
+
+  h2 {
+    font-size: 1.5rem;
+  }
 }
 
 // Citation
@@ -303,8 +307,7 @@ blockquote {
 
 .social {
   text-align: center;
-  letter-spacing: 1rem;
-  padding-bottom: 2rem;
+//  padding-bottom: 2rem;
 
   .contact-icons {
     font-size: 2rem;
@@ -527,7 +530,7 @@ footer.sticky-bottom {
 
   .grid-sizer,
   .grid-item {
-    width: 250px;
+    width: 390px;
     margin-bottom: 10px;
   }
 

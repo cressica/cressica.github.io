@@ -3,6 +3,7 @@ layout: page
 title: Mobile Carbon Footprinting
 description: 
 img: assets/img/p_mcf.jpg
+redirect: https://www.mobilecarbonfootprinting.org/
 importance: 1
 category: Emissions Assessment Tools
 ---
