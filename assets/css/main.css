@@ -176,6 +176,11 @@ img {
   max-width: 90vw;
 }
 
+.img-fluid {
+  max-width: 180px;
+  max-height: 180px;
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 2px solid var(--global-theme-color);
@@ -198,6 +203,9 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  padding: 0px;
 }
 .card img {
   width: 100%;
@@ -207,7 +215,7 @@ blockquote {
 }
 .card .card-item {
   width: auto;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .card .card-item .row {
   display: flex;
@@ -537,7 +545,6 @@ footer.sticky-bottom {
 }
 .projects h2.category {
   color: var(--global-divider-color);
-  border-bottom: 1px solid var(--global-divider-color);
   padding-top: 0.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -547,6 +554,10 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
+}
+.publications img {
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
 .publications h1 {
   color: var(--global-theme-color);
@@ -562,8 +573,8 @@ footer.sticky-bottom {
   font-size: 1.5rem;
 }
 .publications h2.year {
+  font-size: 1.5rem;
   color: var(--global-divider-color);
-  border-top: 1px solid var(--global-divider-color);
   padding-top: 1rem;
   margin-top: 2rem;
   margin-bottom: -2rem;
