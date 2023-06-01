@@ -27,6 +27,8 @@ layout: default
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
+              max-width=180px
+              max-height=180px
               alt=page.profile.image -%}
             {% endif -%}
             {%- if page.profile.address %}
@@ -74,10 +76,6 @@ layout: default
           {%- endif %}
 
           <!-- Projects -->
-<!--           {% if page.selected_papers -%}
-            <h2><a href="{{ '/projects/' | relative_url }}" style="color: inherit;">Projects</a></h2>
-            {%- include selected_projects.html %}
-          {%- endif %} -->
 
         </article>
 
