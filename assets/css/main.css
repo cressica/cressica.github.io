@@ -214,7 +214,8 @@ blockquote {
   align-items: center;
 }
 .card h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: 200;
 }
 
 .citation,
@@ -531,7 +532,7 @@ footer.sticky-bottom {
 }
 .projects .grid-sizer,
 .projects .grid-item {
-  width: 390px;
+  width: 385px;
   margin-bottom: 10px;
 }
 .projects h2.category {
@@ -541,6 +542,7 @@ footer.sticky-bottom {
   margin-top: 2rem;
   margin-bottom: 1rem;
   text-align: left;
+  font-size: 1rem;
 }
 
 .publications {
