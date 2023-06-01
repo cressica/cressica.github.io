@@ -303,9 +303,11 @@ blockquote {
 
 .social {
   text-align: center;
+  letter-spacing: 1rem;
+  padding-bottom: 2rem;
 
   .contact-icons {
-    font-size: 3rem;
+    font-size: 2rem;
 
     a {
       i::before {
@@ -394,7 +396,7 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 2rem;
   }
 }
 
@@ -535,7 +537,7 @@ footer.sticky-bottom {
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: left;
   }
 }
 

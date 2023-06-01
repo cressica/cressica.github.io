@@ -1,12 +1,13 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
+title: Clean Energy Cities
+description: 
+img: assets/img/p_cec.jpg
+redirect: http://energyproforma.mit.edu/webtool3/home
+importance: 2
+category: Emissions Assessment Tools
 ---
-
+<!-- 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
@@ -78,3 +79,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+ -->
