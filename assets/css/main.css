@@ -52,8 +52,8 @@ html[data-theme=dark] {
   --global-code-bg-color: #2c3237;
   --global-text-color: #e8e8e8;
   --global-text-color-light: #e8e8e8;
-  --global-theme-color: #2698BA;
-  --global-hover-color: #2698BA;
+  --global-theme-color: #7e46bd;
+  --global-hover-color: #7e46bd;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #e8e8e8;
   --global-footer-text-color: #1C1C1D;
@@ -213,6 +213,9 @@ blockquote {
   display: flex;
   align-items: center;
 }
+.card h2 {
+  font-size: 1.5rem;
+}
 
 .citation,
 .citation-number {
@@ -365,8 +368,6 @@ blockquote {
 
 .social {
   text-align: center;
-  letter-spacing: 1rem;
-  padding-bottom: 2rem;
 }
 .social .contact-icons {
   font-size: 2rem;
@@ -530,7 +531,7 @@ footer.sticky-bottom {
 }
 .projects .grid-sizer,
 .projects .grid-item {
-  width: 250px;
+  width: 390px;
   margin-bottom: 10px;
 }
 .projects h2.category {
