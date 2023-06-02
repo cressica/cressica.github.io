@@ -4,7 +4,7 @@
     - title: PhD, Urban and Regional Planning
       institution: Massachusetts Institute of Technology
       year: 2021
-        - "Dissertation: 'Mobile Carbon Footprinting: Sensing and Shaping the Carbon Emissions of Daily Activities Using Digital Technologies'"
+        - Dissertation&#58; <i>Mobile Carbon Footprinting&#58; Sensing and Shaping the Carbon Emissions of Daily Activities Using Digital Technologies</i>
 
     - title: Master of Architecture
       institution: Columbia University
@@ -15,7 +15,7 @@
     - title: Fulbright Scholar
       institution: Tsinghua University, School of Architecture
       year: 2001
-        - "Project: 'Transformations of traditional urban courtyard fabric in Beijing'"
+        - Project&#58; <i>Transformations of traditional urban courtyard fabric in Beijing</i>
 
     - title: B.S.E., Civil & Environmental Engineering
       institution: Princeton University
@@ -61,5 +61,5 @@
       description:
         - title: Research Fellow
           contents:
-            - Beijing Air Quality Mapping Project (Director Sarah Williams) - Monitored and mapped air quality (CO & PM levels) during the Beijing Olympics, for distribution by the New York Times & Associated Press
-            - New Orleans Justice Reinvestment Initiative (Director Laura Kurgan) - Developed web-based community networking tools and GIS maps for the publication “Justice Reinvestment, New Orleans”
+            - Beijing Air Quality Mapping Project (Director&#58; Sarah Williams)&#58; Monitored and mapped air quality (CO & PM levels) during the Beijing Olympics, for distribution by the New York Times & Associated Press
+            - New Orleans Justice Reinvestment Initiative (Director&#58; Laura Kurgan)&#58; Developed web-based community networking tools and GIS maps for the publication “Justice Reinvestment, New Orleans”
