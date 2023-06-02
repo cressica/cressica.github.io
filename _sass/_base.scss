@@ -54,6 +54,7 @@ table.table a {
 
 figure,
 img {
+  align-items: center;
   max-width: 90vw;
 }
 
@@ -64,7 +65,7 @@ img {
   -webkit-box-shadow: none;
 }
 
-.preview {
+img.z-depth-1 {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
@@ -107,6 +108,11 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
+
+  }
+
+  a:hover {
+    color: var(--global-hover-color);
   }
 
   .card-item {
@@ -384,7 +390,10 @@ footer.sticky-bottom {
   .card {
     background-color: var(--global-card-bg-color);
     border: 0px solid var(--global-divider-color);
-    margin-left: -40px;
+
+    div.row {
+      margin-left: -40px;      
+    }
 
     .list-group-item {
       background-color: inherit;

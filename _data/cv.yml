@@ -4,6 +4,7 @@
     - title: PhD, Urban and Regional Planning
       institution: Massachusetts Institute of Technology
       year: 2021
+      description:
         - Dissertation&#58; <i>Mobile Carbon Footprinting&#58; Sensing and Shaping the Carbon Emissions of Daily Activities Using Digital Technologies</i>
 
     - title: Master of Architecture
@@ -15,6 +16,7 @@
     - title: Fulbright Scholar
       institution: Tsinghua University, School of Architecture
       year: 2001
+      description:
         - Project&#58; <i>Transformations of traditional urban courtyard fabric in Beijing</i>
 
     - title: B.S.E., Civil & Environmental Engineering
@@ -29,37 +31,33 @@
   type: time_table
   contents:
     - title: Mobile Carbon Footprinting
+      position: Research assistant and project manager
       institution: Massachusetts Institute of Technology, Department of Urban Studies & Planning
       year: 2014-2019
       description:
-        - title: Research assistant and project manager
-          contents:
-            - Developed and piloted a daily activity carbon footprinting tool (www.mobilecarbonfootprinting.org)
-            - Co-authored MIT Energy Initiative (MITEI) Seed Fund grant with the PIs
+        - Developed and piloted a daily activity carbon footprinting tool (www.mobilecarbonfootprinting.org)
+        - Co-authored MIT Energy Initiative (MITEI) Seed Fund grant with the PIs
 
     - title: Making the Clean Energy City in China
+      position: Research assistant and project manager
       institution: Massachusetts Institute of Technology, Department of Urban Studies & Planning
       year: 2011-2014
       description:
-        - title: Research assistant and project manager
-          contents:
-            - Led development of online neighborhood energy assessment tool (energyproforma.mit.edu)
-            - Co-authored reports on neighborhood energy policy and urban planning practices in China
+        - Led development of online neighborhood energy assessment tool (energyproforma.mit.edu)
+        - Co-authored reports on neighborhood energy policy and urban planning practices in China
 
     - title: Asia Megacities Lab/China Lab
+      position: Adjunct Associate Research Scholar
       institution: Columbia University, Graduate School of Architecture, Planning, & Preservation
       year: 2008-2011
       description:
-        - title: Adjunct Associate Research Scholar
-          contents:
-            - Co-authored grants from Weatherhead East Asian Institute and Graham Foundation for the Arts
-            - Co-organized annual China Lab Conferences “Exporting China” (2008), “Megablock Urbanisms” (2009), and “Architectural Research in China” (2010)
+        - Co-authored grants from Weatherhead East Asian Institute and Graham Foundation for the Arts
+        - Co-organized annual China Lab Conferences “Exporting China” (2008), “Megablock Urbanisms” (2009), and “Architectural Research in China” (2010)
 
     - title: Spatial Information Design Lab
+      position: Research Fellow
       institution: Columbia University, Graduate School of Architecture, Planning, & Preservation
       year: 2007-2008
       description:
-        - title: Research Fellow
-          contents:
-            - Beijing Air Quality Mapping Project (Director&#58; Sarah Williams)&#58; Monitored and mapped air quality (CO & PM levels) during the Beijing Olympics, for distribution by the New York Times & Associated Press
-            - New Orleans Justice Reinvestment Initiative (Director&#58; Laura Kurgan)&#58; Developed web-based community networking tools and GIS maps for the publication “Justice Reinvestment, New Orleans”
+        - Beijing Air Quality Mapping Project (Director&#58; Sarah Williams)&#58; Monitored and mapped air quality (CO & PM levels) during the Beijing Olympics, for distribution by the New York Times & Associated Press
+        - New Orleans Justice Reinvestment Initiative (Director&#58; Laura Kurgan)&#58; Developed web-based community networking tools and GIS maps for the publication “Justice Reinvestment, New Orleans”
