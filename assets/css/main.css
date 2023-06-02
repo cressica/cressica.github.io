@@ -145,6 +145,10 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+.font-weight-bold {
+  font-weight: 500 !important;
+}
+
 table td,
 table th {
   font-size: 1rem;
@@ -173,20 +177,15 @@ table.table a:hover:after :not(.nav-item.dropdown) {
 
 figure,
 img {
-  align-items: center;
   max-width: 90vw;
+  margin: 0;
 }
 
 .img-fluid {
   max-width: 180px;
   max-height: 180px;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-}
-
-img.z-depth-1 {
-  box-shadow: none;
-  -webkit-box-shadow: none;
+  margin: auto;
+  display: block;
 }
 
 blockquote {
@@ -211,8 +210,6 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
-  box-shadow: none;
-  -webkit-box-shadow: none;
   padding: 0px;
 }
 .card img {
@@ -445,6 +442,13 @@ footer.sticky-bottom {
   margin-left: 5px;
   font-size: 100%;
 }
+.cv .card h6 {
+  font-size: 1.1rem;
+}
+.cv .card .item {
+  font-size: 0.85rem;
+  line-height: 1;
+}
 
 @media (min-width: 768px) {
   .repo {
@@ -543,6 +547,11 @@ footer.sticky-bottom {
 }
 .projects .card img {
   width: 100%;
+  border-radius: 0.25rem;
+}
+.projects .card:hover {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(126, 70, 189, 0.2), 0 2px 10px 0 rgba(126, 70, 189, 0.2);
+  box-shadow: 0 2px 5px 0 rgba(126, 70, 189, 0.2), 0 2px 10px 0 rgba(126, 70, 189, 0.2);
 }
 .projects .card-item {
   width: auto;
@@ -555,13 +564,14 @@ footer.sticky-bottom {
 .projects .grid-sizer,
 .projects .grid-item {
   width: 380px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 .projects .grid-sizer h2,
 .projects .grid-item h2 {
-  padding-top: 5px;
+  padding-top: 15px;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 .projects h2.category {
   color: var(--global-divider-color);
@@ -574,10 +584,6 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
-}
-.publications img {
-  box-shadow: none;
-  -webkit-box-shadow: none;
 }
 .publications h1 {
   color: var(--global-theme-color);
@@ -612,6 +618,7 @@ footer.sticky-bottom {
   width: 100%;
   min-width: 80px;
   max-width: 200px;
+  margin-bottom: 10px;
 }
 .publications ol.bibliography li .abbr {
   height: 2rem;
@@ -719,6 +726,7 @@ footer.sticky-bottom {
 
 figure.highlight {
   margin: 0 0 1rem;
+  padding: 5px;
 }
 
 pre {
