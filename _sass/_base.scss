@@ -60,6 +60,13 @@ img {
 .img-fluid {
   max-width: 180px; 
   max-height: 180px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.preview {
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
 
 blockquote {
@@ -376,7 +383,8 @@ footer.sticky-bottom {
 
   .card {
     background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
+    border: 0px solid var(--global-divider-color);
+    margin-left: -40px;
 
     .list-group-item {
       background-color: inherit;
@@ -385,6 +393,10 @@ footer.sticky-bottom {
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        margin-left: 5px;
+        font-size: 100%;
       }
     }
   }
