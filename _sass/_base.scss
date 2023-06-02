@@ -23,6 +23,10 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+.font-weight-bold {
+  font-weight: 500!important;
+}
+
 table {
   td,
   th {
@@ -54,21 +58,25 @@ table.table a {
 
 figure,
 img {
-  align-items: center;
+  // box-shadow: none;
+  // -webkit-box-shadow: none;
   max-width: 90vw;
+  margin: 0;
 }
 
 .img-fluid {
   max-width: 180px; 
   max-height: 180px;
-  box-shadow: none;
-  -webkit-box-shadow: none;
+  margin: auto;
+  display: block;
+  // box-shadow: none;
+  // -webkit-box-shadow: none;
 }
 
-img.z-depth-1 {
-  box-shadow: none;
-  -webkit-box-shadow: none;
-}
+// .z-depth-1 {
+//   // box-shadow: none;
+//   // -webkit-box-shadow: none;
+// }
 
 blockquote {
   background: var(--global-bg-color);
@@ -98,8 +106,8 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
-  box-shadow: none;
-  -webkit-box-shadow: none;
+  // box-shadow: none;
+  // -webkit-box-shadow: none;
   padding: 0px;
 
   img {
@@ -108,7 +116,6 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
-
   }
 
   a:hover {
@@ -405,6 +412,15 @@ footer.sticky-bottom {
         font-size: 100%;
       }
     }
+
+    h6 {
+      font-size: 1.1rem;
+    }
+  
+    .item {
+      font-size: 0.85rem;
+      line-height: 1;
+    }
   }
 }
 
@@ -542,6 +558,12 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
+      border-radius: 0.25rem; 
+    }
+
+    &:hover {
+      -webkit-box-shadow: 0 2px 5px 0 rgba(126, 70, 189,0.2), 0 2px 10px 0 rgba(126, 70, 189,0.2);
+      box-shadow: 0 2px 5px 0 rgba(126, 70, 189,0.2), 0 2px 10px 0 rgba(126, 70, 189,0.2);
     }
   }
 
@@ -558,12 +580,13 @@ footer.sticky-bottom {
   .grid-sizer,
   .grid-item {
     width: 380px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 
     h2 {
-      padding-top: 5px;
+      padding-top: 15px;
       font-size: 1rem;
-      font-weight: 300;
+      font-weight: 400;
+      text-transform: uppercase;
     }
   }
 
@@ -585,8 +608,8 @@ footer.sticky-bottom {
   margin-top: 2rem;
 
   img {
-    box-shadow: none;
-    -webkit-box-shadow: none;
+    // box-shadow: none;
+    // -webkit-box-shadow: none;
   }
 
   h1 {
@@ -627,6 +650,7 @@ footer.sticky-bottom {
         width: 100%;
         min-width: 80px;
         max-width: 200px;
+        margin-bottom: 10px;
       }
 
       .abbr {
@@ -763,6 +787,7 @@ footer.sticky-bottom {
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
+  padding: 5px;
 }
 
 pre {

@@ -4,7 +4,7 @@ title: Megablock Urbanisms
 description: 
 img: assets/img/p_megablocks.jpg
 importance: 2
-category: Urban Design
+category: Urban Design Research
 ---
 
 <!-- Every project has a beautiful feature showcase page.

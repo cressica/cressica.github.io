@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 2
-display_categories: [Emissions Assessment Tools, Urban Design]
+display_categories: [Emissions Assessment Tools, Urban Design Research]
 horizontal: false
 ---
 
