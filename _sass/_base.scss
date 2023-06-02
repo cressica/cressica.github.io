@@ -124,12 +124,9 @@ blockquote {
       align-items: center;
     }
   }
-
-  h2 {
-    font-size: 1rem;
-    font-weight: 300;
-  }
 }
+
+
 
 // Citation
 
@@ -562,6 +559,12 @@ footer.sticky-bottom {
   .grid-item {
     width: 380px;
     margin-bottom: 10px;
+
+    h2 {
+      padding-top: 5px;
+      font-size: 1rem;
+      font-weight: 300;
+    }
   }
 
   h2.category {
