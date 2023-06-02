@@ -232,10 +232,6 @@ blockquote {
   display: flex;
   align-items: center;
 }
-.card h2 {
-  font-size: 1rem;
-  font-weight: 300;
-}
 
 .citation,
 .citation-number {
@@ -560,6 +556,12 @@ footer.sticky-bottom {
 .projects .grid-item {
   width: 380px;
   margin-bottom: 10px;
+}
+.projects .grid-sizer h2,
+.projects .grid-item h2 {
+  padding-top: 5px;
+  font-size: 1rem;
+  font-weight: 300;
 }
 .projects h2.category {
   color: var(--global-divider-color);
