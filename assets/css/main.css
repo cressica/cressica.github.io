@@ -173,6 +173,7 @@ table.table a:hover:after :not(.nav-item.dropdown) {
 
 figure,
 img {
+  align-items: center;
   max-width: 90vw;
 }
 
@@ -183,7 +184,7 @@ img {
   -webkit-box-shadow: none;
 }
 
-.preview {
+img.z-depth-1 {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
@@ -219,6 +220,9 @@ blockquote {
 }
 .card .card-title {
   color: var(--global-text-color);
+}
+.card a:hover {
+  color: var(--global-hover-color);
 }
 .card .card-item {
   width: auto;
@@ -429,6 +433,8 @@ footer.sticky-bottom {
 .cv .card {
   background-color: var(--global-card-bg-color);
   border: 0px solid var(--global-divider-color);
+}
+.cv .card div.row {
   margin-left: -40px;
 }
 .cv .card .list-group-item {
